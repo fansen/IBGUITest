@@ -87,9 +87,7 @@ class SampleFrame extends JFrame implements EWrapper {
 
     interface ContractDetailsCallback {
         void onContractDetails(ContractDetails contractDetails);
-
         void onContractDetailsEnd();
-
         void onError(int errorCode, String errorMsg);
     }
 
@@ -1298,8 +1296,7 @@ class SampleFrame extends JFrame implements EWrapper {
                 break;
         }
 
-        if (!faError &&
-                !(faGroupXML == null || faProfilesXML == null || faAliasesXML == null)) {
+        if (!faError && !(faGroupXML == null || faProfilesXML == null || faAliasesXML == null)) {
             FinancialAdvisorDlg dlg = new FinancialAdvisorDlg(this);
             dlg.receiveInitialXML(faGroupXML, faProfilesXML, faAliasesXML);
             dlg.setVisible(true);
@@ -1310,8 +1307,9 @@ class SampleFrame extends JFrame implements EWrapper {
 
             m_client.replaceFA(EClientSocket.GROUPS, dlg.groupsXML);
             m_client.replaceFA(EClientSocket.PROFILES, dlg.profilesXML);
-            m_client.replaceFA(EClientSocket.ALIASES, dlg.aliasesXML);
-
+            // warning: Rejected - Aliases which are defined in the TWS will only be active for this session and
+            // will not be saced. To define a permanent alias, please do so in Account Management.
+//            m_client.replaceFA(EClientSocket.ALIASES, dlg.aliasesXML);
         }
     }
 

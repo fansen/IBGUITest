@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95eeefa6-f4a3-4a68-b461-77fda36eccb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestJavaClient/SampleFrame.java" afterPath="$PROJECT_DIR$/src/TestJavaClient/SampleFrame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,12 +29,14 @@
       <file leaf-file-name="SampleFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestJavaClient/SampleFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="1271" column="27" lean-forward="true" selection-start-line="1271" selection-start-column="27" selection-end-line="1271" selection-end-column="27" />
+            <state relative-caret-position="561">
+              <caret line="569" column="30" lean-forward="true" selection-start-line="569" selection-start-column="30" selection-end-line="569" selection-end-column="30" />
               <folding>
-                <element signature="e#2363#2373#0" expanded="true" />
-                <element signature="e#13597#13598#0" expanded="true" />
-                <element signature="e#13649#13650#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#5857#5858#0" expanded="true" />
+                <element signature="e#5903#5904#0" expanded="true" />
+                <element signature="e#6344#6345#0" expanded="true" />
+                <element signature="e#6391#6392#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,7 +45,7 @@
       <file leaf-file-name="FinancialAdvisorDlg.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestJavaClient/FinancialAdvisorDlg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="1200">
               <caret line="72" column="16" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
               <folding />
             </state>
@@ -80,7 +80,6 @@
               <folding>
                 <element signature="e#0#10131#0" expanded="false" />
                 <element signature="imports" expanded="false" />
-                <element signature="e#1341#1351#0" expanded="false" />
                 <element signature="e#9034#9035#0" expanded="false" />
                 <element signature="e#9079#9080#0" expanded="false" />
               </folding>
@@ -91,8 +90,8 @@
       <file leaf-file-name="EClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ib/client/EClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="2053" column="29" lean-forward="false" selection-start-line="2053" selection-start-column="29" selection-end-line="2053" selection-end-column="29" />
+            <state relative-caret-position="9540">
+              <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,8 +116,6 @@
                 <element signature="imports" expanded="false" />
                 <element signature="e#3032#3033#0" expanded="false" />
                 <element signature="e#3074#3075#0" expanded="false" />
-                <element signature="e#11887#11895#0" expanded="false" />
-                <element signature="e#11934#11942#0" expanded="false" />
                 <element signature="e#47832#47833#0" expanded="false" />
                 <element signature="e#47858#47859#0" expanded="false" />
                 <element signature="e#47912#47913#0" expanded="false" />
@@ -144,12 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>updateAccountValue</find>
-      <find>getColumnName</find>
-      <find>reqAccountU</find>
-      <find>reqAccountUpdates</find>
-      <find>m_subscribe</find>
-      <find>Req Ex</find>
       <find>reqExecutions</find>
       <find>Req Contr</find>
       <find>contractDetails</find>
@@ -174,6 +165,12 @@
       <find>m_account</find>
       <find>Financial Advisor</find>
       <find>receiveFA</find>
+      <find>Req Mkt</find>
+      <find>Financial Ad</find>
+      <find>Req Ma</find>
+      <find>Req M</find>
+      <find>onReqMktDepth</find>
+      <find>onReqMktD</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,8 +199,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="296" />
-    <option name="y" value="10" />
+    <option name="x" value="251" />
+    <option name="y" value="9" />
     <option name="width" value="1623" />
     <option name="height" value="1034" />
   </component>
@@ -222,9 +219,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,6 +231,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="IBGUITest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IBGUITest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IBGUITest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestJavaClient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,7 +275,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -674,7 +689,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -700,6 +715,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="95eeefa6-f4a3-4a68-b461-77fda36eccb8" name="Default" comment="" />
@@ -721,15 +739,18 @@
       <workItem from="1481247065469" duration="8138000" />
       <workItem from="1481535889972" duration="1297000" />
       <workItem from="1481592574020" duration="1526000" />
-      <workItem from="1481599310968" duration="6508000" />
+      <workItem from="1481599310968" duration="7106000" />
+      <workItem from="1482215227275" duration="5418000" />
+      <workItem from="1482300556723" duration="24000" />
+      <workItem from="1482370441415" duration="5496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60186000" />
+    <option name="totallyTimeSpent" value="71722000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="296" y="10" width="1623" height="1034" extended-state="0" />
+    <frame x="251" y="9" width="1623" height="1034" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -741,20 +762,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23222223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23222223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18298145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19065899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -783,9 +804,11 @@
         <state relative-caret-position="11280">
           <caret line="691" column="34" lean-forward="true" selection-start-line="691" selection-start-column="34" selection-end-line="691" selection-end-column="34" />
           <folding>
-            <element signature="e#2363#2373#0" expanded="true" />
-            <element signature="e#13597#13598#0" expanded="true" />
-            <element signature="e#13649#13650#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#5857#5858#0" expanded="true" />
+            <element signature="e#5903#5904#0" expanded="true" />
+            <element signature="e#6344#6345#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -813,8 +836,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#3032#3033#0" expanded="false" />
             <element signature="e#3074#3075#0" expanded="false" />
-            <element signature="e#11887#11895#0" expanded="false" />
-            <element signature="e#11934#11942#0" expanded="false" />
             <element signature="e#47832#47833#0" expanded="false" />
             <element signature="e#47858#47859#0" expanded="false" />
             <element signature="e#47912#47913#0" expanded="false" />
@@ -860,9 +881,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2363#2373#0" expanded="true" />
-            <element signature="e#13597#13598#0" expanded="true" />
-            <element signature="e#13649#13650#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#5857#5858#0" expanded="true" />
+            <element signature="e#5903#5904#0" expanded="true" />
+            <element signature="e#6344#6345#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -875,8 +898,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#3032#3033#0" expanded="false" />
             <element signature="e#3074#3075#0" expanded="false" />
-            <element signature="e#11887#11895#0" expanded="false" />
-            <element signature="e#11934#11942#0" expanded="false" />
             <element signature="e#47832#47833#0" expanded="false" />
             <element signature="e#47858#47859#0" expanded="false" />
             <element signature="e#47912#47913#0" expanded="false" />
@@ -1147,8 +1168,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#3032#3033#0" expanded="false" />
             <element signature="e#3074#3075#0" expanded="false" />
-            <element signature="e#11887#11895#0" expanded="false" />
-            <element signature="e#11934#11942#0" expanded="false" />
             <element signature="e#47832#47833#0" expanded="false" />
             <element signature="e#47858#47859#0" expanded="false" />
             <element signature="e#47912#47913#0" expanded="false" />
@@ -1171,7 +1190,6 @@
           <folding>
             <element signature="e#0#10131#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#1341#1351#0" expanded="false" />
             <element signature="e#9034#9035#0" expanded="false" />
             <element signature="e#9079#9080#0" expanded="false" />
           </folding>
@@ -1194,14 +1212,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/client/EClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="2053" column="29" lean-forward="false" selection-start-line="2053" selection-start-column="29" selection-end-line="2053" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ib/client/EWrapperMsgGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1214,26 +1224,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="97" column="13" lean-forward="false" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestJavaClient/FinancialAdvisorDlg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="1200">
           <caret line="72" column="16" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ib/client/EClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9540">
+          <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestJavaClient/SampleFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="1271" column="27" lean-forward="true" selection-start-line="1271" selection-start-column="27" selection-end-line="1271" selection-end-column="27" />
+        <state relative-caret-position="561">
+          <caret line="569" column="30" lean-forward="true" selection-start-line="569" selection-start-column="30" selection-end-line="569" selection-end-column="30" />
           <folding>
-            <element signature="e#2363#2373#0" expanded="true" />
-            <element signature="e#13597#13598#0" expanded="true" />
-            <element signature="e#13649#13650#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#5857#5858#0" expanded="true" />
+            <element signature="e#5903#5904#0" expanded="true" />
+            <element signature="e#6344#6345#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1297,7 +1316,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

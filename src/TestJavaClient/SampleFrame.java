@@ -136,6 +136,7 @@ class SampleFrame extends JFrame implements EWrapper {
 
     private JPanel createButtonPanel() {
         JPanel buttonPanel = new JPanel(new GridLayout(0, 1));
+
         JButton butConnect = new JButton("Connect");
         butConnect.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -518,7 +519,6 @@ class SampleFrame extends JFrame implements EWrapper {
         }
 
         m_reader = new EReader(m_client, m_signal);
-
         m_reader.start();
 
         new Thread() {
